@@ -11,7 +11,7 @@ const AudioStreamer = () => {
   const wsUrl =
     process.env.NODE_ENV === "development"
       ? "ws://127.0.0.1:8000/twilio/media-stream"
-      : "wss://callvio-backend-dev-242251286144.asia-south1.run.app/twilio/media-stream";
+      : "wss://callvio-backend-dev-242251286144.asia-south1.run.app/media-stream";
 
   // === Audio decoding utilities ===
   const decodeULaw = (uVal) => {
